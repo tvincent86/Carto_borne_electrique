@@ -5,7 +5,7 @@ if (!defined('RACINE_ROOT')){
 }
  */
 //Paramètres de connexion à la BDD PgSQL
-$chaine_conn = "host=10.0.0.207 dbname=bdiaat user=postgres password=";
+$chaine_conn = "host=x.x.x.x dbname=xxxxx user=xxxxxxxx password=";
 $bd_conn = pg_connect($chaine_conn) or die("Connexion impossible");
 $bd_schema = "bd_borne_elec";
 $bd_schema_commun = "bd_commun_projet";
