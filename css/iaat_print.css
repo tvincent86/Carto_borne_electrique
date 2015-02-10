@@ -1,0 +1,64 @@
+/**
+*
+* Feuille de styles pour l'impression
+*
+**/
+
+body { 
+/* Modifications : la couleur de fond de page - la police - l'unité utilisée pour la taille de la police  */ 
+background-color :#fff; 
+font-family :Serif; 
+font-size :10pt; 
+}
+#shortcutCombo {display: none;}
+#GeoNamesSearchCombo {display: none;}
+#gx-popup {
+z-index: 15001;
+}
+#logo{
+text-align: center;
+position: absolute;
+top: 10px;
+left: 55px;
+}
+#logo img {
+width: 130px;
+height: 50px;
+}
+#footer {
+font-family :Serif; 
+font-size :8pt; 
+}
+#footer .version{
+text-align: left;
+position: absolute;
+float: left;
+left: 5px;
+}
+#footer .iaat_w3c{
+    display: none;
+}
+#footer .iaat_xiti{
+    display: none;
+}
+#footer .copyright{
+text-align: right;
+position: absolute;
+float: right;
+right: 5px;
+}
+.olControlScaleLine {
+position: absolute;
+left: 10px;
+}
+.olControlAttribution {
+position: absolute;
+bottom: 2px; 
+left: 185px;
+}
+.olControlPanZoomBar {
+    display: none;
+}
+.olLayerGooglePoweredBy img {
+left: 10px;
+}

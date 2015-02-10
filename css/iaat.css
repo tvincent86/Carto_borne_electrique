@@ -1,0 +1,268 @@
+#controlToggle li {
+list-style: none;
+}
+#bandeau{
+position: absolute;
+top: 0px;
+left: 0px;
+}
+#popup{
+position:absolute;
+top:352px;
+left:150px;
+width:615px;
+z-index:12000;
+}
+#legend {
+position: absolute;
+width: 300px;
+height: 230px;
+top: 495px;
+left: 565px;
+}
+#logo {
+text-align: center;
+position: absolute;
+top: 3px;
+left: 45px;
+}
+#logo .logo-iaat{
+width: 130px;
+height: 55px;
+}
+#print {
+text-align: center;
+position: absolute;
+top: 735px;
+width: 950px;
+left: 10px;
+}
+#footer {
+text-align: center;
+border-color: #99BBE8;
+background-color: #ececec;
+font: 10px tahoma,arial,verdana,sans-serif;
+left: 5px;
+}
+#footer .version{
+text-align: left;
+position: absolute;
+left: 5px;
+}
+#footer .iaat_w3c{
+text-align: center;
+position: absolute;
+width: 65px;
+height: 20px;
+left: 300px;
+}
+#footer .iaat_w3c img{
+width: 65px;
+height: 20px;
+}
+#footer .iaat_xiti{
+text-align: center;
+position: absolute;
+width: 65px;
+height: 18px;
+left: 370px;
+}
+#footer .copyright{
+text-align: right;
+position: absolute;
+float: right;
+right: 5px;
+}
+.zoomfull {
+background-image:url(../icons/icon_zoomfull.png) !important;
+height:20px !important;
+width:20px !important;
+}
+.help {
+background-image:url(../icons/help.png) !important;
+height:20px !important;
+width:20px !important;
+cursor: help;
+}
+.print {
+background-image:url(../icons/icon_printer.png) !important;
+height:20px !important;
+width:20px !important;
+}
+#popup_help {
+background-color: #ffffff;
+font: 14px arial,tahoma,helvetica,sans-serif;
+color: #15428B;
+padding: 10px;
+}
+#popup_help h1 {
+font-size: 18px;
+font-weight: bold;
+color: #0000AA;
+}
+#popup_help h2 {
+font-size: 16px;
+font-weight: bold;
+color: #0000AA;
+}
+#txt-formulaire {
+    padding: 30px 0px 30px 0px;
+background-color: #cedff5;
+}
+#infos {
+    font-size: 11px ;
+    margin-left: 1px;
+    padding: 0px 0px 5px 5px;
+}
+#infos h1 {
+    position: relative;
+    left: -105px;
+}
+#infos li {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+#fieldset-critere01 {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 5px 10px 6px;
+}
+#fieldset-critere01 img {
+    width: 28px;
+}
+#fieldset-critere02 {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 5px 10px 6px;
+}
+#fieldset-critere03 {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 5px 10px 6px;
+}
+#fieldset-critere04 {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 5px 10px 6px;
+}
+#fieldset-critereItineraire {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 6px;
+}
+.x-panel-body {
+    border-color: #ffffff;
+}
+
+.x-border-panel {
+    border-color: green;
+}
+.x-tab-panel-body {
+    border-color: #ffffff;
+}
+.gx-popup-infos .x-window-body {
+    background-color: #ffffff;
+    padding: 5px;
+}
+.plus-infos-link {
+    font:11px arial,tahoma,helvetica,sans-serif;
+    font-style: italic;
+}
+.fond-carte {
+    background-image:url(../icons/icon_zoomfull.png) !important;
+}
+.gx-tree-baselayer-icon {
+    background-image: url(../icons/help.png);
+}
+.x-tree-node-icon {
+    background-image: url(../icons/help.png);
+}
+.x-tree-node-el {
+    margin-bottom: 3px;
+        }
+.iconFolder {
+        background-image: url(../icons/icon_oa_familles_col.png) !important;
+}
+.selectTree {
+    font: 12px arial,tahoma,helvetica,sans-serif;
+    text-align: center;
+}
+/**
+ * CSS OpenLayers 
+ */
+.olLayerDiv g
+{
+cursor: pointer;
+}
+.olMap {
+    border-color: #99BBE8;
+    border-width: 1px;
+}
+/**
+ * CSS Google
+ */
+    /*
+.olLayerGooglePoweredBy {
+    left: 2px;
+    bottom: 20px;   
+    }
+.olLayerGooglePoweredBy img {
+position: relative;
+left: 10px;
+bottom: 10px;
+}
+*/
+/*.olLayerGoogleCopyright {
+    bottom: 2px;
+    left: 2px;
+}*/
+/*.olLayerGoogleV3.olLayerGoogleCopyright {
+    right: auto !important;
+}*/
+/*.olLayerGooglePoweredBy {
+    left: 2px;
+    bottom: 15px;
+}*/
+/*.olLayerGoogleV3.olLayerGooglePoweredBy {
+        bottom: 15px !important;
+}*/
+/* GMaps should not set styles on its container */
+/*.olForeignContainer {
+        opacity: 1 !important;
+}*/
+.olControlScaleLine {
+/*float:left;*/
+left: 70px;
+bottom: 14px;
+display: block;
+    position: absolute;
+        font-size: xx-small;
+}
+.olControlAttribution {
+    font-size: smaller;
+    /*bottom: 1.6em;*/
+    bottom: 12px;;
+        position: absolute;
+            display: block;
+font: 10px arial,tahoma,helvetica,sans-serif;
+/*float: left;
+bottom: 18px;*/
+right: 5px;
+}
+
+
+.olLayerGooglePoweredBy { 
+    display: none;
+}
+
+.olLayerGoogleV3 {
+    display: none;
+
+}
+.x-btn-noicon .x-btn-small .x-btn-text {
+    height: 10px;
+}
+.x-btn button {
+    font: 9px arial,tahoma,verdana,helvetica;
+    color: #333;
+}

@@ -1,0 +1,26 @@
+// Contenu HTML de l'aide
+var AideHtml = '<div id="popup_help">';
+    AideHtml += '<br /><br />';
+    AideHtml += '<h1>Navigation dans la carte</h1>';
+    AideHtml += '<br /><br />';
+    AideHtml += '<h2>à la souris</h2>';
+    AideHtml += '<br />';
+    AideHtml += '<p>Pour vous déplacer dans la carte, cliquer sur celle-ci et déplacer la souris dans le sens du déplacement voulu en maintenant le bouton pressé.';
+    AideHtml += '<br />Double-cliquer pour centrer et zoomer sur une zone.';
+    AideHtml += '<br />Utiliser la touche "shift" et sélectionner une zone rectangulaire pour zoomer sur une portion de carte.';
+    AideHtml += '<br />Utiliser la roulette pour effectuer un zoom avant ou arrière.</p>';
+    AideHtml += '<br /><br />';
+    AideHtml += '<h2>au clavier</h2>';
+    AideHtml += '<br />';
+    AideHtml += '<p>la touche "+" permet d\'effectuer un zoom +';
+    AideHtml += '<br />';
+    AideHtml += 'la touche "-" permet d\'effectuer un zoom-';
+    AideHtml += '<br />';
+    AideHtml += 'les flèches permettent de déplacer la carte (en utilisant "ctrl + flèche" saut de 75% de la zone affichée)';
+    AideHtml += '<br /><br /><br />';
+    AideHtml += '</p>';
+    AideHtml += '<h1>Les points</h1>';
+    AideHtml += '<br /><br />';
+    AideHtml += '<p>Cliquer sur le point, pour faire afficher la fiche correspondante.</p>';
+    AideHtml += '<br /><br /><br />';
+    AideHtml += '</div>';
