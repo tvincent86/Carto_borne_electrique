@@ -1,0 +1,3 @@
+# Ignore le dossier contenant les librairies
+lib/*
+include/conn*
